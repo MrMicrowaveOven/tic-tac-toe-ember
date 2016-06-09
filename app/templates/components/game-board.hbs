@@ -1,1 +1,10 @@
 {{yield}}
+<h1>This is the game board!</h1>
+{{#each squares as |row|}}
+  <h1>
+  {{#each row as |square|}}
+    {{square}}
+    <button {{action "make_move" 1 2 2}}>{{ square }}</button>
+  {{/each}}
+  </h1>
+{{/each}}
