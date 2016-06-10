@@ -1,7 +1,6 @@
 # Tic-tac-toe-ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a project I threw together to learn Ember.  It is not complete yet, but everyone's more than welcome to take a look.  In the long run, I intend to use WebSockets to implement multiplayer (locally at first, then beyond).
 
 ## Prerequisites
 
@@ -50,4 +49,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
