@@ -4,6 +4,11 @@
   <h1>
   {{#each row as |square|}}
     {{square}}
+    <!-- Not sure how I'm going to design this yet, but I'm thinking of using buttons for squares. -->
+    <!-- This way it will be simple to disable them when it isn't a player's turn. -->
+    <!-- I haven't yet managed to trace the index of the square when the make_move action is taken though. -->
+    <!-- I might need to write my own {{each_with_index}}, or maybe a {{while}}. -->
+    <!-- For now, I'm making the move at (1,2), with Player 2 (going to be O eventually) -->
     <button {{action "make_move" 1 2 2}}>{{ square }}</button>
   {{/each}}
   </h1>
