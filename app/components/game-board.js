@@ -1,9 +1,13 @@
 import Ember from 'ember';
-
+// The game-board component will contain the squares, each of which is shown as a button.
 export default Ember.Component.extend({
   // Board info
+  // squares will eventually be filled with game-squares, but until I learn how to properly
+    // nest components I'll just use numbers.
+    // 0 is an empty quare, 1 is an X move, 2 is a O move.
   squares: [[0,0,0],[0,0,0],[0,0,0]],
-  // Squares needed to win
+  // Squares needed to win.  A quick 'match' or similar function should make checking
+    // victory fairly easy.
   winning_squares: [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]],
   // Will turn false if a winner is found.
   game_continues: true,

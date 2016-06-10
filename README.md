@@ -2,7 +2,7 @@
 
 This is a project I threw together to learn Ember.  It is not complete yet, but everyone's more than welcome to take a look.  In the long run, I intend to use WebSockets to implement multiplayer (locally at first, then beyond).
 
-To see what I have thus far, I'd recommend starting the Ember server in the console `ember s`, then visiting `localhost:4200` in a browser.  If you'd like to use a different port, you can change the default with `ember s --port 8080` using 8080 as the desired port.
+To see what I have thus far, I'd recommend starting the Ember server in the console `ember s`, then visiting `localhost:4200` in a browser.  If you'd like to use a different port (such as 8080), you can change the default with `ember s --port 8080` using whatever port you desire.
 
 ## Prerequisites
 
